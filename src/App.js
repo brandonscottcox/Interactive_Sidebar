@@ -1,5 +1,6 @@
 import "./App.css";
-import Navabar from "./components/Navabar";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 import {
   BrowserRouter,
   Routes,
@@ -9,11 +10,9 @@ import {
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <Navabar />
-        <Routes>
-        </Routes>
-      </BrowserRouter>
+    <Navbar />
+    <p>test</p>
+ 
     </>
   );
 }
